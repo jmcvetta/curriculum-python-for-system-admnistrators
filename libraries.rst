@@ -2,16 +2,8 @@
 Using Third-Party Libraries
 ***************************
 
-Virtual Environments
-====================
-
-
-virtualenv
-----------
-
-
-virtualenvwrapper
------------------
+Installation
+============
 
 
 Popular Libaries
