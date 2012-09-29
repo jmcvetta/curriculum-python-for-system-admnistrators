@@ -56,7 +56,7 @@ Google (Bing, etc) is your friend.  So is Pip:
 Popular Packages
 ================
 
-Here are a few popular, useful packages:
+Here are some popular, useful packages:
 
 ==========================   =======================================================
 Package                      Description
@@ -70,19 +70,16 @@ gevent                       High speed event handling library
 gunicorn                     Production webserver
 ipython                      Interactive Python shell
 psycopg2                     PostgreSQL driver
+python-ldap                  Object-oriented API to access LDAP directory servers
 requests                     HTTP for humans
 restkit                      HTTP resource kit
 ==========================   =======================================================
-
-.. todo::
-
-   Add some more sysadmin-focused packages
 
 
 Django Plugins
 --------------
 
-These packages extend/enhance the Django framework.
+These packages extend/enhance the Django framework:
 
 ==========================   =======================================================
 Package                      Description
@@ -103,7 +100,3 @@ py-bcrypt                    More secure password hashing
 south                        Database migration service
 ==========================   =======================================================
  
-
-.. todo::
-
-   Add links to popular packages.
