@@ -15,8 +15,8 @@ The latest version of these notes is published at `Read the Docs`_.
 Classroom delivery of this course is available from `Silicon Bay Training`_, who
 sponsored its development.
 
-.. _Github: https://github.com/jmcvetta/sbtrain_ebay_sysadmin
-.. _`Read the Docs`: https://python-for-ebay-system-administrators.readthedocs.org/
+.. _Github: http://github.com/jmcvetta/sbtrain_ebay_sysadmin
+.. _`Read the Docs`: http://python-for-ebay-system-administrators.readthedocs.org/
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
