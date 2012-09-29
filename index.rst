@@ -6,7 +6,14 @@
 Python for eBay System Administrators
 =====================================
 
-Contents:
+Welcome to the class notes for *Python for eBay System Administrators*.  
+
+The source code for these notes can be found at https://github.com/jmcvetta/sbtrain_ebay_sysadmin.
+
+
+Contents
+========
+
 
 .. toctree::
    :maxdepth: 2
@@ -19,6 +26,7 @@ Contents:
    ldap.rst
    ebay_api.rst
    
+
 
 
 
