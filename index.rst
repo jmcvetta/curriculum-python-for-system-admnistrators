@@ -22,9 +22,10 @@ Contents
    toolbelt.rst
    libraries.rst
    restful_apis.rst
+   ebay_api.rst
+   ssh.rst
    soap.rst
    ldap.rst
-   ebay_api.rst
    
 
 
