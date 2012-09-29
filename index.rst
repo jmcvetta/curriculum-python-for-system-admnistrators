@@ -8,7 +8,16 @@ Python for eBay System Administrators
 
 Welcome to the class notes for *Python for eBay System Administrators*.  
 
-The source code for these notes can be found at https://github.com/jmcvetta/sbtrain_ebay_sysadmin.
+The source code for these notes can be found at on Github_.
+
+The latest version of these notes is published at `Read the Docs`_.
+
+Classroom delivery of this course is available from `Silicon Bay Training`_, who
+sponsored its development.
+
+.. _Github: https://github.com/jmcvetta/sbtrain_ebay_sysadmin
+.. _`Read the Docs`: https://python-for-ebay-system-administrators.readthedocs.org/
+.. _`Silicon Bay Training`: http://sbtrain.com/
 
 
 Contents
@@ -27,6 +36,14 @@ Contents
    soap.rst
    ldap.rst
 
+
+Work in Progress
+================
+
+*These class notes are a work in progress.  Many sections are missing or
+incomplete.  There are still many TODOs:*
+
+.. todolist::
 
 
 Indices and tables
