@@ -64,7 +64,7 @@ Package                      Description
 boto                         Python interface to Amazon Web Services
 django                       Web application framework
 docutils                     Documentation utilities
-fabric                       Library and tool for streamlining the use of SSH
+fabric                       SSH library and command line tool
 flask                        Lightweight web framework
 gevent                       High speed event handling library
 gunicorn                     Production webserver
