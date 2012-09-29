@@ -7,8 +7,10 @@ Toolbelt
 
 Using the right tools can give a big boost to a programmer's productivity. 
 
-The tools described in this section are available in most development
-environments.  Installation instructions for Ubuntu 12.04 are shown.
+The tools described in this section are available on most platforms.
+Installation instructions for `Ubuntu Linux`_ 12.04 are shown.
+
+.. _`Ubuntu Linux`: http://ubuntu.com/
 
 
 Virtual Environments
@@ -63,6 +65,20 @@ and there is an excellent plugin available for Python development.
    $ sudo apt-get install eclipse
 
 
+Installing Eclipse Plugins
+--------------------------
+
+Each Eclipse plugin has an *Update Site* URL, from which it can be installed.
+
+To install a plugin in Eclipse, choose ``Install New Software...`` from the
+``Help`` menu.  Click the ``Add...`` button to add a new plugin repository.  Put
+the plugin's *Update Site* URL in the ``Location:`` field.
+
+Once you have added the plugin repository, check the box of the plugin you want
+to install.  Click ``Next >``, then click thru until it is installed.  Normally
+Eclipse will want to restart itself after a new plugin has been installed.
+
+
 Aptana / PyDev
 --------------
 
@@ -78,7 +94,7 @@ Update site:
    
 .. _`Aptana Studio`: http://aptana.com/
 
-vwrapper
+Vwrapper
 --------
 
 Vrapper is an Eclipse plugin providing VI-keys support.  Only install this
