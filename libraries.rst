@@ -63,7 +63,6 @@ Package                      Description
 ==========================   =======================================================
 boto                         Python interface to Amazon Web Services
 django                       Web application framework
-docutils                     Documentation utilities
 fabric                       SSH library and command line tool
 flask                        Lightweight web framework
 gevent                       High speed event handling library
@@ -73,6 +72,7 @@ psycopg2                     PostgreSQL driver
 python-ldap                  Object-oriented API to access LDAP directory servers
 requests                     HTTP for humans
 restkit                      HTTP resource kit
+sphinx                       Documentation tool
 ==========================   =======================================================
 
 
@@ -84,6 +84,7 @@ These packages extend/enhance the Django framework:
 ==========================   =======================================================
 Package                      Description
 ==========================   =======================================================
+docutils                     Documentation utilities
 django-bootstrap-form        Format Django forms to look nice with Twitter Bootstrap 
 django-celery                Distributed task queue
 django-debug-toolbar         In-browser debugging utility
