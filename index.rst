@@ -26,7 +26,7 @@ Contents
    :maxdepth: 2
 
    intro.rst
-   toolbelt.rst
+   tools.rst
    libraries.rst
    restful_apis.rst
    ebay_api.rst

@@ -1,8 +1,8 @@
 .. highlight:: bash
 
-********
-Toolbelt
-********
+*****
+Tools
+*****
 
 
 Using the right tools can give a big boost to a programmer's productivity. 
