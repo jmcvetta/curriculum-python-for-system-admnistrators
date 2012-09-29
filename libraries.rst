@@ -84,7 +84,6 @@ These packages extend/enhance the Django framework:
 ==========================   =======================================================
 Package                      Description
 ==========================   =======================================================
-dj_database_url              Get database URL from Heroku environment variables
 django-bootstrap-form        Format Django forms to look nice with Twitter Bootstrap 
 django-celery                Distributed task queue
 django-debug-toolbar         In-browser debugging utility
