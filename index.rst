@@ -5,11 +5,13 @@ Welcome to the class notes for *Python for eBay System Administrators*.
 
 The source code for these notes can be found at on Github_.
 
-The latest version of these notes is published at `Read the Docs`_.
+The latest version of these notes is published at `Read the Docs`_. It is also
+available in `PDF form`_.
 
 Classroom delivery of this course is available from `Silicon Bay Training`_, who
 sponsored its development.
 
+.. _`PDF form`: https://media.readthedocs.org/pdf/python-for-ebay-system-administrators/latest/python-for-ebay-system-administrators.pdf
 .. _Github: http://github.com/jmcvetta/sbtrain_ebay_sysadmin
 .. _`Read the Docs`: http://python-for-ebay-system-administrators.readthedocs.org/
 .. _`Silicon Bay Training`: http://sbtrain.com/
