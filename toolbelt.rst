@@ -92,6 +92,19 @@ Update site:
 Working with Virtual Environments
 ---------------------------------
 
+.. todo:: 
+
+   Research best way for sysadmins, rather than developers, to work with virtualenvs.
+
 
 Git - Version Control
 =====================
+
+
+
+.. todo:: 
+
+   Describe common workflow for Git use with sysadmin scripts.  Local & remote
+   repos.
+   
+   Some parts of eBay use private Github - do sysadmins?
