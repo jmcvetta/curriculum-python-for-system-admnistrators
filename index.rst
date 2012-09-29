@@ -15,6 +15,10 @@ Contents:
    toolbelt.rst
    libraries.rst
    restful_apis.rst
+   soap.rst
+   ldap.rst
+   ebay_api.rst
+   
 
 
 
