@@ -25,3 +25,12 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# Sphinx
+_build/
+
