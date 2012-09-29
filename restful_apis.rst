@@ -20,5 +20,9 @@ Standard Library
 ================
 
 
-Restkit (or Requests) Libary
-============================
+Restkit Libary
+==============
+
+.. todo::
+
+   Decide between Restkit and Requests libraries
