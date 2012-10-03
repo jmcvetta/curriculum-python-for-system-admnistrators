@@ -31,6 +31,7 @@ Contents
    restful_apis.rst
    ebay_api.rst
    ssh.rst
+   debugging.rst
    soap.rst
    ldap.rst
 
