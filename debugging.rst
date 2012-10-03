@@ -27,9 +27,7 @@ Debugger
 
 A debugger is a computer program that lets you run your program, line by line
 and examine the values of variables or look at values passed into functions and
-let you figure out why it isn't running the way you expected it to. [#]_
-
-.. [#] http://cplus.about.com/od/glossar1/g/debugdefinition.htm
+let you figure out why it isn't running the way you expected it to. [1]_
 
 
 Logging
@@ -112,7 +110,7 @@ local folder, not the ``foobar`` module in the standard library.
 Catchign Multiple Exceptions
 ----------------------------
 
-Be careful catching multiple exception types: [#]_
+Be careful catching multiple exception types: [2]_
 
 ::
 
@@ -133,7 +131,6 @@ TypeError, use this instead:
        print TypeError
 
 
-.. [#] http://stackoverflow.com/questions/1011431/common-pitfalls-in-python
 
 
 Unqualified ``except:`` block
@@ -146,7 +143,7 @@ Do you really want to catch *all* exceptions?  Can your ``except`` block
 Populating Arrays
 -----------------
 
-When you need a population of arrays you might be tempted to type something like this:
+When you need a population of arrays you might be tempted to type something like this: [3]_
 
 ::
 
@@ -184,3 +181,10 @@ It is worth mentioning a workaround:
 
    a = [[1,2,3,4,5] for _ in range(4)]
 
+
+
+.. rubric:: Footnotes
+
+.. [1] http://cplus.about.com/od/glossar1/g/debugdefinition.htm
+.. [2] http://stackoverflow.com/q/1011431/164308
+.. [3] http://stackoverflow.com/a/1025447/164308
