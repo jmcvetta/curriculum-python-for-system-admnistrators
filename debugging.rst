@@ -43,7 +43,7 @@ operation.  Verbose logging can be especially helpful for understanding bugs
 in highly concurrent code, where it would be difficult to inspect each
 thread/process in an ordinary debugger.
 
-Logging is an essential part of `12-Factor methodology` for building modern
+Logging is an essential part of `12-Factor methodology`_ for building modern
 applications.
 
 .. _`12-Factor methodology`: http://www.12factor.net/
