@@ -2,11 +2,6 @@
 Remote control of hosts over SSH
 ********************************
 
-.. todo::
-   
-   Should we use popen(), Paramiko, Fabric, or some other library?
-   
-   http://stackoverflow.com/questions/1233655/what-is-the-simplest-way-to-ssh-using-python
 
 ``popen()``
 ===========
@@ -15,7 +10,16 @@ It is possible to control a local ssh session using ``os.popen()`` if no
 libraries are available.  This is a super primative way to do things, and not
 recommended if you can avoid it.
 
-https://gist.github.com/1284249
+Here is an example: [1]_
+
+.. literalinclude:: examples/ssh/popen_example.py
+   :linenos:
+   :lines: 8-
+   
+.. todo::
+
+   Customize example to match student VM setup
+
 
 
 Fabric
@@ -59,9 +63,14 @@ Once a task is defined, it may be run on one or more servers, like so:
 In addition to use via the fab tool, Fabric’s components may be imported into
 other Python code, providing a Pythonic interface to the SSH protocol suite at a
 higher level than that provided by e.g. the ssh library (which Fabric itself
-uses.) [1]
+uses.) [2]_
+
+.. todo::
+
+   In-class Fabric example(s).
 
 
 .. rubric:: Footnotes
 
-.. [1] http://docs.fabfile.org/en/1.4.3/index.html
+.. [1] https://gist.github.com/1284249
+.. [2] http://docs.fabfile.org/en/1.4.3/index.html
