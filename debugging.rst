@@ -121,7 +121,15 @@ Be careful catching multiple exception types: [2]_
        
 This prints "hmm bug", though it is not a bug; it looks like we are catching
 exceptions of both types, but instead we are catching KeyError only as variable
-TypeError, use this instead:
+TypeError.
+
+`PythonTutor can help us visualize what is happening.`__
+
+__ http://www.pythontutor.com/visualize.html#code=try%3A%0A++++raise+KeyError(%22hmm+bug%22)%0Aexcept+KeyError,+TypeError%3A%0A++++print+TypeError&mode=display&cumulative=false&py=2&curInstr=0
+
+
+The correct way to catch multiple exceptions is to put them in parentheses:
+
 
 ::
    
@@ -129,6 +137,11 @@ TypeError, use this instead:
        raise KeyError("hmm bug")
    except (KeyError, TypeError):
        print TypeError
+
+
+`Visualize the correct program flow.`__
+ 
+__ http://www.pythontutor.com/visualize.html#code=try%3A%0A++++raise+KeyError(%22hmm+bug%22)%0Aexcept+(KeyError,+TypeError)%3A%0A++++print+TypeError%0A&mode=display&cumulative=false&py=2&curInstr=0
 
 
 
@@ -175,11 +188,15 @@ But don't expect the elements of your population to be seperate objects:
 
 Unless this is what you need...
 
+`Visualize what is happening.`__
+
+__ http://www.pythontutor.com/visualize.html#code=a+%3D+%5B%5B1,2,3,4,5%5D%5D*4%0A%0Aprint+a%0A%0Aa%5B0%5D%5B0%5D+%3D+2%0A%0Aprint+a&mode=display&cumulative=false&py=2&curInstr=0
+
 It is worth mentioning a workaround:
 
 ::
 
-   a = [[1,2,3,4,5] for _ in range(4)]
+   a = [[1,2,3,4,5] for i in range(4)]
 
 
 
