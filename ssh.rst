@@ -3,8 +3,8 @@ Remote control of hosts over SSH
 ********************************
 
 
-``subprocess.Popen()``
-======================
+subprocess.Popen()
+==================
 
 It is possible to control a local ssh session using ``subprocess.Popen()`` if no
 libraries are available.  This is a super primative way to do things, and not
