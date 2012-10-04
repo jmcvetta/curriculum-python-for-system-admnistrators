@@ -1,4 +1,4 @@
-.. highlight:: bash
+.. highlight:: console
 
 ***************************
 Using Third-Party Libraries
