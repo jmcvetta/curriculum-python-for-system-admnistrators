@@ -3,10 +3,10 @@ Remote control of hosts over SSH
 ********************************
 
 
-``popen()``
-===========
+``subprocess.Popen()``
+======================
 
-It is possible to control a local ssh session using ``os.popen()`` if no
+It is possible to control a local ssh session using ``subprocess.Popen()`` if no
 libraries are available.  This is a super primative way to do things, and not
 recommended if you can avoid it.
 
@@ -25,9 +25,8 @@ Here is an example: [1]_
 Fabric
 ======
 
-Fabric is a Python (2.5 or higher) library and command-line tool for
-streamlining the use of SSH for application deployment or systems administration
-tasks.
+Fabric is a library and command-line tool for streamlining the use of SSH for
+application deployment or systems administration tasks.
 
 It provides a basic suite of operations for executing local or remote shell
 commands (normally or via sudo) and uploading/downloading files, as well as
@@ -67,7 +66,7 @@ uses.) [2]_
 
 .. todo::
 
-   In-class Fabric example(s).
+   Another, perhaps more complicated, Fabric example.
 
 
 .. rubric:: Footnotes
