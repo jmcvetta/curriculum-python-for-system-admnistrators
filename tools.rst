@@ -50,8 +50,8 @@ than one project at a time without introducing conflicts in their dependencies [
    $ sudo apt-get install virtualenvwrapper
 
 
-Eclipse IDE
-===========
+Eclipse / Aptana IDE
+====================
 
 Eclipse is a powerful IDE - an integrated development environment.  It provides
 valuable tools for understanding, browsing, and refactoring your code.  
@@ -115,14 +115,12 @@ Working with Virtual Environments
 Git - Version Control
 =====================
 
-
-
 .. todo:: 
 
    Describe common workflow for Git use with sysadmin scripts.  Local & remote
    repos.
    
-   Some parts of eBay use private Github - do sysadmins?
+
 
 .. rubric:: Footnotes
 
