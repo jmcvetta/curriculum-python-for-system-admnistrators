@@ -20,7 +20,7 @@ sponsored its development.
 
 
 Contents
-========
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -36,7 +36,7 @@ Contents
 
 
 Work In Progress
-================
+----------------
 
 
 *These class notes are a work in progress.  Many sections are missing or
