@@ -283,3 +283,6 @@ epub_copyright = u'2012, Jason McVetta'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+# Include TODOs
+todo_include_todos = True
