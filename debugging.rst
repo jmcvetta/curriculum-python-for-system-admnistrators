@@ -22,6 +22,22 @@ father of `Plan 9`_, UTF-8_, and Go_) is said to approve of this method.
 .. _Go: http://en.wikipedia.org/wiki/Go_(programming_language)
 
 
+IPython
+-------
+
+IPython_ is an interactive interpreter shell with more features than the default
+Python REPL shell.
+
+While not used for *debugging* per se, an interactive session can be a good way
+to understand and explore small bits of code.
+
+.. _IPython: http://ipython.org
+
+.. code-block:: console
+
+   (venv)$ pip install ipython
+
+
 Debugger
 --------
 
