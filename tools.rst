@@ -48,6 +48,28 @@ than one project at a time without introducing conflicts in their dependencies [
 ::
 
    $ sudo apt-get install virtualenvwrapper
+   $ mkvirtualenv sysadmin
+   New python executable in sysadmin/bin/python
+   Installing distribute.............................................................................................................................................................................................done.
+   Installing pip...............done.
+   virtualenvwrapper.user_scripts creating /home/jason/.virtualenvs/sysadmin/bin/predeactivate
+   virtualenvwrapper.user_scripts creating /home/jason/.virtualenvs/sysadmin/bin/postdeactivate
+   virtualenvwrapper.user_scripts creating /home/jason/.virtualenvs/sysadmin/bin/preactivate
+   virtualenvwrapper.user_scripts creating /home/jason/.virtualenvs/sysadmin/bin/postactivate
+   virtualenvwrapper.user_scripts creating /home/jason/.virtualenvs/sysadmin/bin/get_env_details
+   (sysadmin)$ pip freeze # A few packages are installed by default
+   argparse==1.2.1
+   distribute==0.6.24
+   wsgiref==0.1.2
+   
+By default your virtualenvs are stored in ``~/.virtualenvs``.  However you can
+control this by setting the ``WORKON_HOME`` environment variable.  This could
+potentially be used for shared virtualenvs, perhaps with group write permission.
+
+.. code-block:: bash
+
+   export WORKON_HOME=/path/to/virtualenvs
+   
 
 
 Eclipse IDE

@@ -23,13 +23,10 @@ Use the ``pip`` command to install libraries into a virtual environment.
 
 For example:
 
-.. todo::
-
-   Show virtualenv activation
-
 ::
 
-   $ pip install ipython
+   $ workon sysadmin # Activate virtualenv
+   (sysadmin)$ pip install ipython
 
 If you really must install a library system-wide, *please* first look and see if
 a reasonable version of the library is available from your system's package
