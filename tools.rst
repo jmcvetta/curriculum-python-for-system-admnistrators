@@ -50,18 +50,26 @@ than one project at a time without introducing conflicts in their dependencies [
    $ sudo apt-get install virtualenvwrapper
 
 
-Eclipse / Aptana IDE
-====================
+Eclipse IDE
+===========
 
 Eclipse is a powerful IDE - an integrated development environment.  It provides
 valuable tools for understanding, browsing, and refactoring your code.  
 
 Out of the box, Eclipse does not support Python.  However Eclipse is a plugin-based system, 
-and there is an excellent plugin available for Python development.
+and there are excellent tools available for Python development.
 
-::
 
-   $ sudo apt-get install eclipse
+Aptana / PyDev
+--------------
+
+The Python plugin for Eclipse, called *PyDev*, is now part of `Aptana Studio`_.
+Aptana can be installed as a seperate download, or as an Eclipse plugin.  For
+convenience we will download the whole application.
+
+   http://aptana.com/products/studio3/download
+
+.. _`Aptana Studio`: http://aptana.com/
 
 
 Installing Eclipse Plugins
@@ -77,21 +85,6 @@ Once you have added the plugin repository, check the box of the plugin you want
 to install.  Click ``Next >``, then click thru until it is installed.  Normally
 Eclipse will want to restart itself after a new plugin has been installed.
 
-
-Aptana / PyDev
---------------
-
-The Python plugin for Eclipse, called *PyDev*, is now part of `Aptana
-Studio`_.
-It can be installed as a seperate download, or as
-an Eclipse plugin.  We will use the Eclipse plugin so the package manager
-handles the many Eclipse dependencies for us.
-
-Update site: 
-
-   ``http://download.aptana.com/studio3/plugin/install``
-   
-.. _`Aptana Studio`: http://aptana.com/
 
 Vwrapper
 --------
