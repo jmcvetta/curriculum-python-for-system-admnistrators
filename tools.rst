@@ -34,11 +34,6 @@ virtual environment, or to the virutal environment itself.
 virtualenvwrapper
 -----------------
 
-.. todo::
-
-   Is ``virtualenvwrapper`` appropriate for system administration scripts?
-   
-
 ``virtualenvwrapper`` is a set of extensions to the ``virtualenv`` tool. The
 extensions include wrappers for creating and deleting virtual environments and
 otherwise managing your development workflow, making it easier to work on more
@@ -62,9 +57,38 @@ than one project at a time without introducing conflicts in their dependencies [
    distribute==0.6.24
    wsgiref==0.1.2
    
-By default your virtualenvs are stored in ``~/.virtualenvs``.  However you can
-control this by setting the ``WORKON_HOME`` environment variable.  This could
-potentially be used for shared virtualenvs, perhaps with group write permission.
+Note that when the virtualenv is active, its name (in this case "sysadmin") is
+prepended to the shell prompt:
+
+::
+
+   $ # Ordinary shell prompt
+   (sysadmin)$ # Virtualenv "sysadmin" is active
+
+
+If later you have logged out, and want to activate this virtualenv, you can use
+the ``workon`` command:
+
+::
+
+   $ workon sysadmin
+   (sysadmin)$
+
+You can deactivate the virtualenv with the ``deactivate`` command:
+
+::
+
+   (sysadmin)$ deactivate
+   $ # Back to normal shell prompt
+
+
+Location of Virtualenvs
+-----------------------
+
+By default, ``virtualenvwrapper`` stores your virtualenvs in ``~/.virtualenvs``.
+However you can control this by setting the ``WORKON_HOME`` environment
+variable.  This could potentially be used for shared virtualenvs, perhaps with
+group write permission.
 
 .. code-block:: bash
 
