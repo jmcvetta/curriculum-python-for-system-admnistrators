@@ -19,9 +19,7 @@ sponsored its development.
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
-Contents
-========
-
+.. rubric:: Contents
 
 .. toctree::
    :maxdepth: 2
@@ -36,8 +34,7 @@ Contents
    ldap.rst
 
 
-Work in Progress
-================
+.. rubric:: Work in Progress
 
 *These class notes are a work in progress.  Many sections are missing or
 incomplete.  There are still many TODOs:*
@@ -45,12 +42,6 @@ incomplete.  There are still many TODOs:*
 .. todolist::
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 
 ----
