@@ -1,7 +1,8 @@
-Python for eBay System Administrators
-=====================================
+********************************
+Python for System Administrators
+********************************
 
-Welcome to the class notes for *Python for eBay System Administrators*.  
+Welcome to the class notes for *Python for System Administrators*.  
 
 The source code for these notes can be found at on Github_.
 
@@ -11,10 +12,10 @@ available in PDF_ and ePub_ formats.
 Classroom delivery of this course is available from `Silicon Bay Training`_, who
 sponsored its development.
 
-.. _PDF: https://media.readthedocs.org/pdf/python-for-ebay-system-administrators/latest/python-for-ebay-system-administrators.pdf
-.. _ePub: https://media.readthedocs.org/epub/python-for-ebay-system-administrators/latest/python-for-ebay-system-administrators.epub
-.. _Github: http://github.com/jmcvetta/sbtrain_ebay_sysadmin
-.. _`Read the Docs`: http://python-for-ebay-system-administrators.readthedocs.org/
+.. _PDF: https://media.readthedocs.org/pdf/python-for-system-administrators/latest/python-for-system-administrators.pdf
+.. _ePub: https://media.readthedocs.org/epub/python-for-system-administrators/latest/python-for-system-administrators.epub
+.. _Github: http://github.com/jmcvetta/python_for_sysadmins
+.. _`Read the Docs`: http://python-for-system-administrators.readthedocs.org/
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
@@ -29,7 +30,6 @@ Contents
    tools.rst
    libraries.rst
    restful_apis.rst
-   ebay_api.rst
    ssh.rst
    debugging.rst
    soap.rst
@@ -57,4 +57,4 @@ Indices and tables
 
 .. raw:: html
   
-   <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Python for eBay System Administrators</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://python-for-ebay-system-administrators.readthedocs.org/" property="cc:attributionName" rel="cc:attributionURL">Jason McVetta</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+   <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Python for System Administrators</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://python-for-ebay-system-administrators.readthedocs.org/" property="cc:attributionName" rel="cc:attributionURL">Jason McVetta</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
