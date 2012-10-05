@@ -19,7 +19,8 @@ sponsored its development.
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
-**Contents**
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
@@ -34,7 +35,8 @@ sponsored its development.
    ldap.rst
 
 
-----
+Work In Progress
+================
 
 
 *These class notes are a work in progress.  Many sections are missing or
