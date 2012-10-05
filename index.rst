@@ -22,8 +22,6 @@ sponsored its development.
 -----
 
 
-**Contents**
-
 .. toctree::
    :maxdepth: 2
 
