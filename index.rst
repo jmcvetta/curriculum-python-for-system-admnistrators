@@ -2,27 +2,6 @@
 Python for System Administrators
 ********************************
 
-Welcome to the class notes to *Python for System Administrators*.  
-
-The source code for these notes can be found on Github_.
-
-The latest version of these notes is published at `Read the Docs`_. It is also
-available in PDF_ and ePub_ formats.
-
-Classroom delivery of this course is available from `Silicon Bay Training`_, who
-sponsored its development.
-
-.. _PDF: https://media.readthedocs.org/pdf/python-for-system-administrators/latest/python-for-system-administrators.pdf
-.. _ePub: https://media.readthedocs.org/epub/python-for-system-administrators/latest/python-for-system-administrators.epub
-.. _Github: http://github.com/jmcvetta/python_for_sysadmins
-.. _`Read the Docs`: http://python-for-system-administrators.readthedocs.org/
-.. _`Silicon Bay Training`: http://sbtrain.com/
-
-
---------------------------------------------------------------------------------
-
-
-
 .. toctree::
    :maxdepth: 2
 
