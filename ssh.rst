@@ -3,6 +3,11 @@ Remote control of hosts over SSH
 ********************************
 
 
+.. todo::
+
+   Customize (hosts etc) all examples to match student VM setup
+
+
 subprocess.Popen()
 ==================
 
@@ -15,11 +20,6 @@ Here is an example: [#f1]_
 .. literalinclude:: examples/ssh/popen_example.py
    :linenos:
    :lines: 8-
-   
-.. todo::
-
-   Customize example to match student VM setup
-
 
 
 Fabric
@@ -41,7 +41,7 @@ Typical use involves creating a Python file named ``fabfile.py``, containing one
 or more functions, then executing them via the fab command-line tool. Below is a
 small but complete ``fabfile.py`` containing a single task:
 
-.. literalinclude:: labs/fabric0/fabfile.py
+.. literalinclude:: labs/fabric/fabfile.py
    :lines: 5-
 
 
@@ -102,36 +102,24 @@ strings and may require a bit of string manipulation for complex types such
 as lists. Future versions may add a typecasting system to make this easier.
 
 
-
-
-Aggregates
-----------
-
-Fabric can also be used to collect aggregate data about groups of hosts.
-However this is not especially well supported, particularly when running from
-the standard ``fab`` command.
-
-.. literalinclude:: labs/fabric2/fabfile.py
-   :linenos:
-   :lines: 11-
-
-
 Library Usage
 -------------
 
 In addition to use via the fab tool, Fabric’s components may be imported into
 other Python code, providing a Pythonic interface to the SSH protocol suite at a
 higher level than that provided by e.g. the ssh library (which Fabric itself
-uses.)
+uses.) [#f3]_
 
-.. todo::
+Consider the case where we want to collect average uptime from a list of hosts:
 
-   Another, perhaps more complicated, Fabric example.
-
-
+.. literalinclude:: labs/fabric/avg_uptime.py
+   :linenos:
+   :lines: 11-
+   :emphasize-lines: 18
 
 
 .. rubric:: Footnotes
 
 .. [#f1] https://gist.github.com/1284249
 .. [#f2] http://docs.fabfile.org/en/1.4.2/tutorial.html#task-arguments
+.. [#f3] http://stackoverflow.com/a/8166050
