@@ -38,7 +38,7 @@ Contents:
 
 --------------------------------------------------------------------------------
 
-.. rubric:: Work In Progress
+**Work In Progress**
 
 
 *These class notes are a work in progress.  Many sections are missing or
