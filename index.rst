@@ -2,7 +2,7 @@
 Python for System Administrators
 ********************************
 
-Welcome to the class notes for *Python for System Administrators*.  
+Welcome to the class notes to *Python for System Administrators*.  
 
 The source code for these notes can be found at on Github_.
 
