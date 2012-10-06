@@ -19,8 +19,6 @@ sponsored its development.
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
------
-
 *********
 Contents:
 *********
