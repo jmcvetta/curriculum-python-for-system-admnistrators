@@ -1,5 +1,3 @@
-.. highlight:: console
-
 *****
 Tools
 *****
@@ -40,7 +38,7 @@ otherwise managing your development workflow, making it easier to work on more
 than one project at a time without introducing conflicts in their dependencies [#f1]_.
 
 
-::
+.. code-block:: console
 
    $ sudo apt-get install virtualenvwrapper
    $ mkvirtualenv sysadmin
@@ -60,7 +58,7 @@ than one project at a time without introducing conflicts in their dependencies [
 Note that when the virtualenv is active, its name (in this case "sysadmin") is
 prepended to the shell prompt:
 
-::
+.. code-block:: console
 
    $ # Ordinary shell prompt
    (sysadmin)$ # Virtualenv "sysadmin" is active
@@ -69,14 +67,14 @@ prepended to the shell prompt:
 If later you have logged out, and want to activate this virtualenv, you can use
 the ``workon`` command:
 
-::
+.. code-block:: console
 
    $ workon sysadmin
    (sysadmin)$
 
 You can deactivate the virtualenv with the ``deactivate`` command:
 
-::
+.. code-block:: console
 
    (sysadmin)$ deactivate
    $ # Back to normal shell prompt
@@ -94,6 +92,26 @@ group write permission.
 
    export WORKON_HOME=/path/to/virtualenvs
    
+
+Virtual Environments for Scripts
+================================
+
+There are several ways you can run scripts that rely on a virtualenv:
+
+* Use Fabric's ``prefix()`` `context manager`__ when calling the script remotely:: 
+
+   def task():
+       with prefix('workon sysadmin'):
+           run('uptime')
+           run('uname -a')
+
+__ http://docs.fabfile.org/en/1.4.3/api/core/context_managers.html
+
+* Have whatever is calling your script (``cron`` etc) call ``workon`` first.
+
+* Specify your virtualenv's Python interpreter directly in the script's bangline.  
+
+* Use a bash script as a wrapper.  Ugly, but sometimes convenient.
 
 
 Eclipse IDE
@@ -141,14 +159,6 @@ plugin if you are *certain* you want it.
 Update site:
 
    ``http://vrapper.sourceforge.net/update-site/stable``
-
-
-Working with Virtual Environments
----------------------------------
-
-.. todo:: 
-
-   Research best way for sysadmins, rather than developers, to work with virtualenvs.
 
 
 Git - Version Control
