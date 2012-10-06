@@ -19,9 +19,8 @@ sponsored its development.
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
-********
-Contents
-********
+--------------------------------------------------------------------------------
+
 
 
 .. toctree::
@@ -35,6 +34,7 @@ Contents
    debugging.rst
    soap.rst
    ldap.rst
+
 
 
 -----
