@@ -19,8 +19,6 @@ sponsored its development.
 .. _`Silicon Bay Training`: http://sbtrain.com/
 
 
------
-
 *********
 Contents:
 *********
@@ -38,10 +36,10 @@ Contents:
    ldap.rst
 
 
------
 
-
-**Work In Progress**
+****************
+Work In Progress
+****************
 
 
 *These class notes are a work in progress.  Many sections are missing or
