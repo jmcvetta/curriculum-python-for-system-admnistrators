@@ -4,7 +4,7 @@ Python for System Administrators
 
 Welcome to the class notes to *Python for System Administrators*.  
 
-The source code for these notes can be found at on Github_.
+The source code for these notes can be found on Github_.
 
 The latest version of these notes is published at `Read the Docs`_. It is also
 available in PDF_ and ePub_ formats.
