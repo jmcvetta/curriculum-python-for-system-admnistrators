@@ -13,7 +13,6 @@ Python for System Administrators
    debugging.rst
    soap.rst
    ldap.rst
-   work_in_progress.rst
 
 
 

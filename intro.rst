@@ -46,3 +46,12 @@ be taking the course:
   an Ubuntu 12.04 desktop.  It should be possible to run all the code examples
   on other posix-compatible platforms, but additional or different setup may be
   required.
+
+
+Work In Progress
+================
+
+*These class notes are a work in progress.  Many sections are missing or
+incomplete.  There are still many TODOs:*
+
+.. todolist::
