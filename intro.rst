@@ -23,7 +23,7 @@ sponsored its development.
 Background Assumptions
 ======================
 
-This class is designed system administrators who will be using Python in the
+This class is designed for system administrators who will be using Python in the
 course of their work.  It assumes students will have the following background
 knowledge:
 
@@ -33,7 +33,16 @@ knowledge:
 
 * Basic understanding of networking and tools like SSH.
 
-* Basic understanding of Python language and syntax.  No special expertise is
-  assumed; but this is *not* an into to Python class.
+* Basic understanding of Python language and syntax.
 
 
+Environment
+===========
+
+The following assumptions are made about the environment in which students will
+be taking the course:
+
+* Ubuntu 12.04.  All package installation etc examples assume you are working on
+  an Ubuntu 12.04 desktop.  It should be possible to run all the code examples
+  on other posix-compatible platforms, but additional or different setup may be
+  required.
