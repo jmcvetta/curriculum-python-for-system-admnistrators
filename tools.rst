@@ -24,7 +24,7 @@ virtualenv
 The term "virtualenv" can refer to the command ``virtualenv``, used to create a 
 virtual environment, or to the virutal environment itself.
 
-::
+.. code-block:: console
   
   $ sudo apt-get install python-virtualenv
   
