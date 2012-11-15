@@ -12,6 +12,7 @@ Lab - Disk Space
 '''
 
 THRESHOLD = 1048576000 # 1GB in KB
+THRESHOLD = 1048576 # 1B in KB
 
 
 import sys
@@ -21,9 +22,9 @@ from fabric.api import run
 from fabric.network import disconnect_all
 from fabric.exceptions import NetworkError
 
-env.hosts = ['newyork', 'seattle', 'localhost', 'foobar']
+env.hosts = ['newyork', 'seattle', 'localhost', 'sunflower.heliotropic.us']
 
-def get_disk_space(host_list, error_list):
+def get_disk_space():
     #result = run('df -k / | grep dev')
     try:
         result = run('df -k / | grep dev')
@@ -37,15 +38,17 @@ def get_disk_space(host_list, error_list):
         msg = 'Bad server response: "%s"\n' % result
         sys.stderr.write(msg)
         err_tuple = (env.host_string, result, err)
-        error_list.append(err_tuple)
+        env['errors'].append(err_tuple)
         return
     host_tuple = (env.host_string, free_space)
-    host_list.append(host_tuple)
+    env['host_tuples'].append(host_tuple)
 
 def main():
-    host_list = []
-    error_list = []
-    tasks.execute(get_disk_space, host_list, error_list)
+    env['host_tuples'] = []
+    env['errors'] = []
+    tasks.execute(get_disk_space)
+    host_list = env['host_tuples']
+    error_list = env['errors']
     if error_list:
         print '-' * 80
         print 'ERRORS:'

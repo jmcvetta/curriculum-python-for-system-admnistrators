@@ -14,17 +14,17 @@ env.hosts = ['localhost', 'sunflower.heliotropic.us']
 pattern = re.compile(r'up (\d+) days')
 
 # No need to decorate this function with @task
-def uptime(uts_list):
+def uptime():
     res = run('uptime')
-    print res
     match = pattern.search(res)
     if match:
         days = int(match.group(1))
-        uts_list.append(days)
+        env['uts'].append(days)
 
 def main():
-    uts_list = []
-    tasks.execute(uptime, uts_list)
+    env['uts'] = []
+    tasks.execute(uptime)
+    uts_list = env['uts']
     if not uts_list:
         return # Perhaps we should print a notice here?
     avg = sum(uts_list) / float(len(uts_list))
