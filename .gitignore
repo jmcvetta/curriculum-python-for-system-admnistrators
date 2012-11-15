@@ -34,3 +34,5 @@ pip-log.txt
 # Sphinx
 _build/
 
+# Django lab app
+db.sqlite3
