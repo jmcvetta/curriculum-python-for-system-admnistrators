@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}
+Devops - Uptime Dashboard
+{% endblock %}
+
+{% block content %}
+
+<h1>
+	Uptime Dashboard
+</h1>
+
+<h2>
+	Average Uptimes
+</h2>
+
+<p>
+	Current Average: {{ curr_avg_ut }} minutes
+</p>
+
+<p>
+	Historical Average: {{ hist_avg_ut }} minutes
+</p>
+
+<h2>
+	Uptimes By Host
+</h2>
+
+<p>
+	Timestamp: {{ latest_timestamp }}
+</p>
+
+<table border="1">
+	<tr>
+		<th>
+			Hostname
+		</th>
+		<th>
+			Uptime (minutes)
+		</th>
+	</tr>
+	{% for ut in latest_uts %}
+	<tr>
+		<td>
+			{{ ut.host.hostname }}
+		</td>
+		<td>
+			{{ ut.minutes }}
+		</td>
+	</tr>
+	{% endfor %}
+</table>
+
+{% endblock %}
