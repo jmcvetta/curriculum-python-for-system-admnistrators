@@ -123,7 +123,7 @@ You type ``import foobar``, and the module imported is ``foobar.py`` in the
 local folder, not the ``foobar`` module in the standard library.
 
 
-Catchign Multiple Exceptions
+Catching Multiple Exceptions
 ----------------------------
 
 Be careful catching multiple exception types: [2]_
